@@ -34,7 +34,7 @@ printt(text,0.03)
 minichars=list("""!'^+%&/("=?_- *|\};.,:][{$#£><""")
 
 
-class create_nickName:
+class test_typing:
     global printt
     def __init__(self, Liste:list=list):
         """
@@ -161,4 +161,4 @@ giving_sentence=['Yazılım değişik ve çeşitli görevler yapma amaçlı tasa
                  ' ihtiyaçlar kolaylıkla bulunabilir. Burada önemli olan programı hangi işletim sistemi için'
                  ' derleyeceğinizdir.']
 
-create_nickName(Liste=giving_sentence)
+test_typing(Liste=giving_sentence)
